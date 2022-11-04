@@ -1,0 +1,41 @@
+.about .item img {
+    height:100%;
+}
+
+.about .container {
+    margin-bottom:30px;
+}
+
+.about .container .section-title {
+    padding-top:70px;
+}
+
+.about .container .text-left h2 {
+    text-align:left;
+    font-size:35px;
+}
+
+.about .container .text-left p {
+    text-align:left;
+    font-size:20px;
+}
+
+.about .container .text-right h2 {
+    text-align:right;
+    font-size:35px;
+    text-transform:uppercase;
+}
+
+.about .container .text-right p {
+    text-align:right;
+    font-size:20px;
+}
+
+.about .section-title h2::before {
+    left:auto !important; 
+    width:150px
+}
+
+.about .text-right h2::before {
+    right:0;
+}
